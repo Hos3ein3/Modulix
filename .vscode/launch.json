@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C#: ModuliX.API (Kes,Dev)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/ModuliX.API/bin/Debug/net9.0/ModuliX.API.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/ModuliX.API",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    {
+      "name": "C#: ModuliX.Gateway (Kes,Dev)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/ModuliX.Gateway/bin/Debug/net9.0/ModuliX.Gateway.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/ModuliX.Gateway",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    {
+      "name": "C#: ModuliX.Auth.API (Doc,Dev)",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/src/Modules/Auth/ModuliX.Auth.API/ModuliX.Auth.API.csproj",
+      "args": [],
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "ModuliX.sln",
+    "projects": [
+      "src/ModuliX.BuildingBlocks/ModuliX.BuildingBlocks.csproj",
+      "src/ModuliX.SharedKernel/ModuliX.SharedKernel.csproj",
+
+      "src/Modules/Auth/ModuliX.Auth.Domain/ModuliX.Auth.Domain.csproj",
+      "src/Modules/Auth/ModuliX.Auth.Application/ModuliX.Auth.Application.csproj",
+      "src/Modules/Auth/ModuliX.Auth.Infrastructure/ModuliX.Auth.Infrastructure.csproj",
+      "src/Modules/Auth/ModuliX.Auth.Infrastructure/ModuliX.Auth.Persistence.csproj",
+      "src/Modules/Auth/ModuliX.Auth.API/ModuliX.Auth.API.csproj"
+    ]
+  }
+}
