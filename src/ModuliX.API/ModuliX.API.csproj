@@ -2,7 +2,14 @@
 
 
   <ItemGroup>
+  
+  <ProjectReference Include="../Modules/Auth/ModuliX.Auth.API/ModuliX.Auth.API.csproj" />
+  <ProjectReference Include="../ModuliX.BuildingBlocks/ModuliX.BuildingBlocks.csproj" />
+ </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
   </ItemGroup>
 
 </Project>

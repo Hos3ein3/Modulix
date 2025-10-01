@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+   <ItemGroup>
+  <ProjectReference Include="../../../ModuliX.BuildingBlocks/ModuliX.BuildingBlocks.csproj" />
+  <ProjectReference Include="../ModuliX.Auth.Domain/ModuliX.Auth.Domain.csproj" />
+  <ProjectReference Include="../ModuliX.Auth.Application/ModuliX.Auth.Application.csproj" />
+ </ItemGroup>
+
 
 </Project>
