@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\ModuliX.CxMS.Domain\ModuliX.CxMS.Domain.csproj" />
+    <ProjectReference Include="..\..\..\ModuliX.BuildingBlocks\ModuliX.BuildingBlocks.csproj" />
+  </ItemGroup>
+</Project>

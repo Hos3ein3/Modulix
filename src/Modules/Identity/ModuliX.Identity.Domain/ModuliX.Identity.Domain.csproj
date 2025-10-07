@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ModuliX.SharedKernel\ModuliX.SharedKernel.csproj" />
+  </ItemGroup>
+<ItemGroup>
+<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"  />
+</ItemGroup>
+  
+</Project>

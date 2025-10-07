@@ -1,0 +1,6 @@
+@ModuliX.UserManagementSystem.API_HostAddress = http://localhost:5257
+
+GET {{ModuliX.UserManagementSystem.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

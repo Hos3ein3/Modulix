@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ModuliX.BuildingBlocks\ModuliX.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\Identity\ModuliX.Identity.Domain\ModuliX.Identity.Domain.csproj" />
+    <ProjectReference Include="..\ModuliX.Authentication.Application\ModuliX.Authentication.Application.csproj" />
+    <ProjectReference Include="..\..\Identity\ModuliX.Identity.Persistence\ModuliX.Identity.Persistence.csproj" />
+  </ItemGroup>
+
+
+</Project>

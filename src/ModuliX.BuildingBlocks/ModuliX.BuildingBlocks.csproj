@@ -4,10 +4,31 @@
  <ProjectReference Include="../ModuliX.SharedKernel/ModuliX.SharedKernel.csproj" />
 </ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+<ItemGroup>
+  <PackageReference Include="FluentValidation" />
+  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+  <PackageReference Include="Microsoft.Extensions.Http.Resilience" />
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+  <PackageReference Include="Oracle.EntityFrameworkCore" />
+  <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+  <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
+  <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+  <PackageReference Include="MongoDB.Driver" />
+  <PackageReference Include="MongoDB.Driver.Core" />
+  <PackageReference Include="Neo4j.Driver" />
+  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+  <PackageReference Include="Refit.HttpClientFactory" />
+  <PackageReference Include="StackExchange.Redis" />
+  <PackageReference Include="FluentValidation.AspNetCore" />
+  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+  <PackageReference Include="Refit" />
+  <PackageReference Include="Newtonsoft.Json"  />
+</ItemGroup>
 
+ 
 </Project>

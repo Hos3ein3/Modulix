@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "ModuliX.sln",
+    "projects": [
+      "src/ModuliX.BuildingBlocks/ModuliX.BuildingBlocks.csproj",
+      "src/ModuliX.SharedKernel/ModuliX.SharedKernel.csproj",
+
+     
+      "src/Modules/UserManagementSystem/ModuliX.UserManagementSystem.Application/ModuliX.UserManagementSystem.Application.csproj",
+      "src/Modules/UserManagementSystem/ModuliX.UserManagementSystem.Infrastructure/ModuliX.UserManagementSystem.Infrastructure.csproj",
+
+      "src/Modules/UserManagementSystem/ModuliX.UserManagementSystem.API/ModuliX.UserManagementSystem.API.csproj"
+    ]
+  }
+}

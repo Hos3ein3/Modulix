@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "ModuliX.sln",
+    "projects": [
+      "src/ModuliX.BuildingBlocks/ModuliX.BuildingBlocks.csproj",
+      "src/ModuliX.SharedKernel/ModuliX.SharedKernel.csproj",
+
+     
+      "src/Modules/Authentication/ModuliX.Authentication.Application/ModuliX.Authentication.Application.csproj",
+      "src/Modules/Authentication/ModuliX.Authentication.Infrastructure/ModuliX.Authentication.Infrastructure.csproj",
+
+      "src/Modules/Authentication/ModuliX.Authentication.API/ModuliX.Authentication.API.csproj"
+    ]
+  }
+}
