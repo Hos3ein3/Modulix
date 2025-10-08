@@ -1,6 +1,11 @@
 
 namespace ModuliX.BuildingBlocks.Enums;
 
+public enum FeatureManagement
+{
+    alphaFeature,
+    betaFeature,
+}
 public enum DeploymentMode
 {
     Monolith = 1,

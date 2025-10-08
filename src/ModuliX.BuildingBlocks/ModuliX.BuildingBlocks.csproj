@@ -12,6 +12,7 @@
   <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
   <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
   <PackageReference Include="Microsoft.Extensions.Http.Resilience" />
+  <PackageReference Include="Microsoft.FeatureManagement.AspNetCore" />
   <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
   <PackageReference Include="Oracle.EntityFrameworkCore" />
   <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
@@ -27,7 +28,7 @@
   <PackageReference Include="FluentValidation.AspNetCore" />
   <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
   <PackageReference Include="Refit" />
-  <PackageReference Include="Newtonsoft.Json"  />
+  <PackageReference Include="Newtonsoft.Json" />
 </ItemGroup>
 
  
